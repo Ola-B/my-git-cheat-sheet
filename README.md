@@ -17,3 +17,12 @@ To track a new file:
 ```git commit -m "commit message"```
 To stage and commit at same time:
 ```git commit -a -m "commit message"```
+
+## Branch
+To create a new branch:
+```git branch <branch-name>```
+Use
+```git log```
+to see what branches there is and where "HEAD" is.
+To switch branch:
+```git checkout <branch-name>```
