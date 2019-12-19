@@ -26,3 +26,7 @@ Use
 to see what branches there is and where "HEAD" is.
 To switch branch:
 ```git checkout <branch-name>```
+To create new branch and checkout in one go
+```git checkout -b <newbranchname>```
+To see tree of branch:
+```git log --oneline --decorate --graph --all```
