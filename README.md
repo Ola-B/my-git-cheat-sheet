@@ -37,3 +37,6 @@ Then merge the branch with the master:
 ```git merge <name-of-branch>```
 To delete the branch:
 ```git branch -d <branch-name>```
+
+## Push local repo to remote
+```git push```
