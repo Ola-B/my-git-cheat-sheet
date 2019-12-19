@@ -30,3 +30,10 @@ To create new branch and checkout in one go
 ```git checkout -b <newbranchname>```
 To see tree of branch:
 ```git log --oneline --decorate --graph --all```
+
+To merge the branch and the master, first go to the master branch you want to merge into:
+```git checkout master```
+Then merge the branch with the master:
+```git merge <name-of-branch>```
+To delete the branch:
+```git branch -d <branch-name>```
